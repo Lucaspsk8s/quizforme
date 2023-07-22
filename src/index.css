@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+  color: white;
+}
+
+body, html {
+  min-height: 100vh;
+  height: 100%;
+  background-color: #4b4b4b;
+}
+img{
+  max-height: 100%;
+}
+button{
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: .8rem 1.5rem;
+  background: linear-gradient(90deg, #FFD700 0%, #fafa02 100%);
+  border-radius: 3rem;
+  border: none;
+}
+button:hover{
+ background: linear-gradient(90deg, #fafa02 0%, #FFD700 100%);
+
+}
